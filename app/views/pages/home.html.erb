@@ -1,3 +1,57 @@
-<h2>Home Page</h2>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <title>Flora Ministries</title>
+    <%= csrf_meta_tags %>
 
-<p>This would be a static home page in a Rails application.</p>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h3>Est 2018</h3>
+        <h3>Rooted & Grounded in God's Love Eph 3:17</h3>
+        <h3>Donate Button</h3>
+      </div>
+    </header>
+
+<section id="showcase">
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="international.html">International Outreach</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="gallery.html">Blog/Gallery</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+
+<div class="logo">
+  <img src="logo.png" alt="" width="508" height="312">
+</div>
+    <div class="welcome">
+      <h2>Welcome, </br> We're so glad you're here.</h2>
+      <p>Flora ministries INC is a faith based non-profit organization rooted and
+        grounded in God’s love. Our mission is to share the gospel of Jesus Christ to
+        bring hope and restoration through outreach and evangelism. </br>
+        Then Christ will make his home in your hearts as you trust in him. Your roots
+        will grow down into God’s love and keep you strong. Ephesians 3:17</br>
+        We are passionate about going after the one, reaching one soul, feeding one stomach,
+        healing one heart at a time. We believe in partnering with local, national
+        and international organizations to achieve common goals and create unity.
+      </p>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    <p>© Copyright Flora Ministries 2018. Made with ❤️. </p>
+  </footer>
+  </body>
+</html>
